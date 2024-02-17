@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color: rgb(2, 2, 16);
+    /* background-image:url(./Images/Coffe_kb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* height: ; */
+    /* border: 1px solid rgb(41, 41, 42); */
+}
+
+/* .banne{
+    background-color: rgb(6, 6, 62, 0.2);
+    z-index: 1;
+    height: 100%;
+} */
+
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin: 0 auto;
+    height: 100%;
+    padding:5%  ;
+    width: 80%;
+    /* border: 1px solid red; */
+}
+
+.intro .social{
+    margin-top: 20px;
+}
+
+.intro a{
+    color: #514e4e;
+    background-color: #959090;
+    padding: 5px 8px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.copy-right{
+    margin-top: 50px;
+}
+.avartar{
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+}
+.avartar img{
+    border-radius: 100%;
+}
+
+/* .quick-link{
+    position: fixed;
+    top: 500px;
+    color: #fff;
+    right: 20px;
+} */
+/* 
+div{
+    height: 200px;
+    background-color: rgb(2, 2, 40);
+
+} */

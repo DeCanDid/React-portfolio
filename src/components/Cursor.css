@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+ .cursor{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .1s;
+ } 
+ 
+ .cursor2{
+    position: fixed;
+    height: 8px;
+    width: 8px;
+    background-color: lightslategrey;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .15s;
+ }
+
+ /* main:hover .cursor{
+    transform: translate(-50%, -50%) scale(1.5);
+    background-color: rgb(183, 194, 193);
+    opacity: .5;
+ }
+
+ .content:hover .cursor2{
+    opacity: 0;
+    
+ } */

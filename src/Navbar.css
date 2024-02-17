@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    border-bottom: 1px solid lightgray;
+    background-color: rgb(2, 2, 16);
+    position: sticky;
+    top: 0;
+}
+.offcanvas-body, .offcanvas-header{
+    background-color: rgb(2, 2, 16);
+
+}
+
+.navbar-toggler{
+    border: none;
+}
