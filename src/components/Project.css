@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    width: 70%;
+    margin: 80px auto;
+}
+.projects{
+    border: 1px solid #fff;
+    margin: 40px 0;
+}
+
+.card{
+    width: 30%;
+    height: 300px;
+    border-radius: 5px;
+    background-image: url(../Images/avatar.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 10px;
+}
+
+.transparent{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    display: none;
+}
+.card:hover .transparent{
+    display: block;
+    transition: 0.5s ease-in;
+
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project-resource{
+    border: 1px solid red;
+    margin-top: 35%;
+    padding: 10px;
+    color: #fff;
+}
+.project-resource small{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding:1% 4%;
+    margin-right: 2%;
+    border-radius: 20px;
+}
+.card center{
+    margin-top: 15px;
+    text-decoration: none;
+}
+.card a{
+    color: #fff;
+}
+main a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.socials{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.social a{
+    color: #514e4e;
+    background-color: #959090;
+    padding: 5px 8px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
