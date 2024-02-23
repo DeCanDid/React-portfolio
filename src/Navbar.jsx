@@ -10,11 +10,18 @@ const Navbar = () => {
 <header className=''>
 <nav class="navbar navbar-dark shadow px-5 py-3">
   <div class="container-fluid">
+    
     <Link style={{fontWeight:'bold', fontSize:'25px'}} to='/' 
     class="navbar-brand" href="#">CanDid.</Link>
+    {/* <div>
+        <a href="">toyota</a>
+        <a href="">toyota</a>
+        <a href="">toyota</a>
+      </div> */}
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    
     <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
       <div class="offcanvas-header">
         <Link to='/' style={{fontWeight:'bold', fontSize:'25px', color:'white'}} 
