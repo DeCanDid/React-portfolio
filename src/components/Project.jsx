@@ -4,6 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import resume from'../Resume/Resume.pdf'
 
 const Project = () => {
     useEffect(()=>{
@@ -88,7 +89,7 @@ const Project = () => {
                             <h3>Real Estate</h3>
                             <p>A Real-Estate Website</p>
                             <small>React</small><small>CSS</small><small>HTML</small>
-                            <center><Link to='htpps://real-estate-pd3v.onrender.com'><i class="icofont-external-link"></i></Link></center>
+                            <center><Link to='https://real-estate-pd3v.onrender.com'><i class="icofont-external-link"></i></Link></center>
                         </div>
                     </div>
                     </div>
@@ -112,7 +113,7 @@ const Project = () => {
                                 invest with crypto with percentage interest
                             </p>
                             <small>React</small><small>CSS</small><small>HTML</small>
-                            <center><Link to='htpps://rocketgainfxcare.s56r.onrender.com'><i class="icofont-external-link"></i></Link></center>
+                            <center><Link to='htpps://rocketgainfxcare-s56r.onrender.com'><i class="icofont-external-link"></i></Link></center>
                         </div>
                     </div>
                     </div>
@@ -123,14 +124,14 @@ const Project = () => {
                             <h3>A Simple To-do App</h3>
                             <p>A Todo App</p>
                             <small>HTML</small><small>CSS</small><small>JavaScript</small>
-                            <center><Link to='htpps://todolist-1n2z.onrender.com'><i class="icofont-external-link"></i></Link></center>
+                            <center><Link to='https://todolist-1n2z.onrender.com'><i class="icofont-external-link"></i></Link></center>
                         </div>
                     </div>
                     </div>
 
                    
                 </div>
-                <Link to=''>Lets Go to My Resume <i className="icofont-external-link"></i></Link>
+                <a download href={resume}>Download My Resume <i className="icofont-external-link"></i></a>
             </div> 
 
         </main> 

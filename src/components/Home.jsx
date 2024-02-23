@@ -25,6 +25,9 @@ const Home = () => {
                     <p>A passionate frontend web developer with a love for crafting
                    pixel-perfect, user-friendly experiences on the web.</p>
                 <Link to='/about'>Read More About Me <i class="icofont-external-link"></i></Link>
+                <Link style={{backgroundColor:'white', borderRadius:'5px',
+            color:'black'}} to='../' download='CV'>Download CV</Link>
+                {/* <a download='CV' href="./">Download CV</a> */}
                 </div>
 
                 <div data-aos='fade-in' className="my-img">
