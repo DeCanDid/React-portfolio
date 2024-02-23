@@ -9,6 +9,7 @@ const Footer = () => {
         <div>
             <a href="https://twitter/OlaCandid"><i className="icofont-twitter"></i></a>
             <a href="https://ola-candid-509465253/"><i className="icofont-linkedin"></i></a>
+            <a href="mailto:olacandid@gmail.com"><i className="icofont-email"></i></a>
             <a href=""><i className="icofont-instagram"></i></a>
             <a href="https://github.com/DeCanDid"><i className="icofont-github"></i></a>
           </div>

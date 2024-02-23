@@ -4,7 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import resume from'../Resume/Resume.pdf'
+import resume from'../Resume/Resume.pdf';
 
 const Project = () => {
     useEffect(()=>{

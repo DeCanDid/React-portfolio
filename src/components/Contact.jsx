@@ -119,7 +119,8 @@ const Contact = () =>{
 </form>
 
     <div className='back-home'>
-    <Link to='/'>Go Back Home <i className="icofont-long-arrow-right"></i></Link>
+    <Link  style={myStyle.color} to='/'>Go Back Home <i className="icofont-long-arrow-right">
+      </i></Link>
     </div>
 
 </section>
