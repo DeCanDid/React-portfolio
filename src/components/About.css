@@ -3,20 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+.section2 h1{
+    font-size: 45px;
+}
 
 main{
     color: #fff;
     background-color: rgb(2, 2, 16);
 }
 
-section{
-    /* border: 2px solid red; */
+.section2{
     padding: 20px;
-    width: 70%;
+    width: 80%;
     margin: 80px auto 20px;
+
 }
-section article{
+article p{
+    font-size: 18px;
+}
+.section2 article{
     padding: 2%;
-    margin: 2%;
-    border-left: 1px solid lightgrey;
+    margin: 3%;
+    width: 90%;
+    border-left: 1px solid lightgrey; 
+    /* border-top: 1px solid lightgrey; */
+}
+
+/* media Query */
+@media (max-width:560px) {
+    .section2, .socialss{
+        width: 100%;
+    }
 }

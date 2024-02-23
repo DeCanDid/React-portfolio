@@ -1,8 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .color{
   background-color: rgb(2, 2, 16);
-  height: 100vh;
+  /* height: 100vh; */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 
 
 .App-logo {

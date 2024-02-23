@@ -1,5 +1,3 @@
-// import logo from './logo.svg';
-import Social from './components/Social';
 import './App.css';
 import {Routes, Route} from 'react-router-dom'
 import Landing from './Landing';
@@ -7,6 +5,9 @@ import Navbar from './Navbar';
 import About from './components/About';
 import Project from './components/Project';
 import Contact from './components/Contact';
+import NotFound from './components/NotFound';
+import Footer from './components/Footer';
+import Home from './components/Home';
 
 const App = () =>{
   return(
@@ -14,17 +15,21 @@ const App = () =>{
     <div className='color'>
     <Navbar />
     <Routes>
-      <Route path='/' element={<Landing /> }/>
-      <Route path='/project' element={<Project /> }/>
+      <Route path='/' element={<Home/>} />
       <Route path='/about' element={<About /> }/>
+      <Route path='/project' element={<Project /> }/>
       <Route path='/contact' element={<Contact /> }/>
+      <Route path='*' element={<NotFound/> }/> 
+
+
+
+
+
+       {/* <Route path='/' element={<Landing /> }/> */}
       
-      {/* <Landing /> */}
-      {/* <About /> */}
-      {/* <Social/> */}
-      {/* <Project/> */}
-      {/* <Contact /> */}
     </Routes>
+    <Footer/>
+
     </div>
 
     </>

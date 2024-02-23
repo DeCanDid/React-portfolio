@@ -1,27 +1,140 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.section3{
+    width: 80%;
+    margin: 100px auto;
 }
-.section{
-    width: 70%;
+.myprojects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.pro{
+    background-image: url(../Images/ankara.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pro:hover .transparent, .pro2:hover .transparent,
+.pro3:hover .transparent, .pro4:hover .transparent,
+.pro5:hover .transparent, .pro6:hover .transparent,
+.pro7:hover .transparent, .pro8:hover .transparent,
+.pro9:hover .transparent{
+    display: block;
+}
+
+.pro2{
+    background-image: url(../Images/ajike.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pro3{
+    background-image: url(../Images/dinner.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pro4{
+    background-image: url(../Images/e-commerce.PNG);
+}
+
+.pro5{
+    background-image: url(../Images/grant.PNG);
+}
+
+.pro6{
+    background-image: url(../Images/real-estate.PNG);
+}
+.pro7{
+    background-image: url(../Images/musicApp.PNG);
+    background-size: cover;
+}
+
+.pro8{
+    background-image: url(../Images/rocket.PNG);
+    background-size: cover;
+}
+
+.pro9{
+    background-image: url(../Images/toDo.PNG);
+    background-position: center;
+    background-size: cover;
+}
+.pro, .pro2, .pro3, .pro4,.pro5,
+.pro6, .pro7, .pro8, .pro9{
+    /* border: 1px solid beige; */
+    width: 30%;
+    height: 300px;
+    border-radius: 5px;
+    margin: 15px;
+
+}
+.transparent{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;  
+    display: none; 
+    position: absolute;
+    width: 100%; 
+}
+.project-resource{
+    margin-top:20%;
+    padding: 10px;
+    text-align: center;
+}
+.project-resource small{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 4px 10px;
+    border-radius: 15px;
+    margin:5px 5px 10px 0px;
+}
+center{
+    margin-top: 10px;
+    color: #fff;
+    font-size: larger;
+}
+center a{
+    text-decoration: none;
+    color: #fff;
+}
+.section3 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* .section3{
+    width: 80%;
     margin: 80px auto;
 }
 .projects{
     border: 1px solid #fff;
     margin: 40px 0;
 }
-
 .card{
     width: 30%;
     height: 300px;
     border-radius: 5px;
-    background-image: url(../Images/avatar.jpg);
+    background-image: url(../Images/ankara.PNG);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     margin: 10px;
 }
+
+
+.second-card{
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 30%;
+    height: 300px;
+    border-radius: 5px;
+    background-image: url(../Images/ajike.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 10px;
+}
+
+
 
 .transparent{
     background-color: rgba(0, 0, 0, 0.7);
@@ -30,7 +143,6 @@
 }
 .card:hover .transparent{
     display: block;
-    transition: 0.5s ease-in;
 
 }
 .projects{
@@ -61,23 +173,35 @@ main a{
     color: #fff;
     text-decoration: none;
     
+} */
+
+
+@media (max-width:1100px) {
+
+    .pro, .pro2, .pro3, .pro4, .pro5,
+    .pro6, .pro7, .pro8, .pro9{
+        width: 45%;
+    }
 }
 
-.socials{
-    width: 70%;
-    margin: 0 auto;
+@media (max-width:820px) {
+    .pro, .pro2, .pro3, .pro4, .pro5,
+    .pro6, .pro7, .pro8, .pro9{
+        width: 70%;
+    }
+  
 }
 
-.social a{
-    color: #514e4e;
-    background-color: #959090;
-    padding: 5px 8px;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    font-size: 20px;
-    text-decoration: none;
-    margin: 0 10px;
+@media (max-width:600px) {
+    .section3{
+        width: 90%;
+    }
+
+    .pro, .pro2, .pro3, .pro4, .pro5,
+    .pro6, .pro7, .pro8, .pro9{
+        width: 100%;
+    }
+
 }
 
 
