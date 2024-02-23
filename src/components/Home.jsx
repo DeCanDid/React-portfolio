@@ -27,8 +27,8 @@ const Home = () => {
                     <p>A passionate frontend web developer with a love for crafting
                    pixel-perfect, user-friendly experiences on the web.</p>
                 <Link to='/about'>Read More About Me <i class="icofont-external-link"></i></Link>
-                <a style={{backgroundColor:'white', borderRadius:'5px',
-            color:'black'}} download href={resume}>Download Resume</a>
+                {/* <a style={{backgroundColor:'white', borderRadius:'5px',
+            color:'black'}} download href={resume}>Download Resume</a> */}
                 {/* <a download='CV' href="./">Download CV</a> */}
                 </div>
 

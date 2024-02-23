@@ -44,5 +44,14 @@
 @media (max-width: 620px) {
     .row1{
         width: 100%;
+        border: 1px solid beige;
+
+    }
+}
+
+@media (max-width: 520px) {
+    .row1{
+        width: 100%;
+        border: 1px solid beige;
     }
 }
