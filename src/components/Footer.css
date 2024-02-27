@@ -5,11 +5,17 @@ footer{
 }
 footer a{
     color: #fff;
-    padding: 5px 8px;
+    padding: 5px;
     font-size: 20px;
     width: 40px;
     background-color: rgb(103, 100, 100);
     margin: 20px;
     border-radius: 40px;
     text-decoration: none;
+}
+
+@media (max-width:500px) {
+    .links a{
+        margin: 15px;
+    }
 }

@@ -80,6 +80,9 @@
     padding: 10px;
     text-align: center;
 }
+.project-resource p{
+    line-height: 25px;
+}
 .project-resource small{
     background-color: rgba(0, 0, 0, 0.7);
     padding: 4px 10px;
@@ -200,6 +203,7 @@ main a{
     .pro, .pro2, .pro3, .pro4, .pro5,
     .pro6, .pro7, .pro8, .pro9{
         width: 100%;
+        margin: 30px 0;
     }
 
 }

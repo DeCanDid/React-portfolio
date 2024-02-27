@@ -1,0 +1,84 @@
+.resume-wrapper{
+    background-color: #fff;
+    padding: 50px 0;
+    width: 90%;
+    margin:50px auto;
+}
+.toContact{
+    width: 90%;
+    margin: 0 auto;
+}
+.toContact a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.resume-wrapper p{
+    line-height: 25px;
+}
+.first_row a{
+    color: #fff;
+    text-decoration: none;
+}
+.resume{
+    display: flex;
+    margin: 4rem ;
+    padding: 3rem;
+    color: #fff;
+    background-color: rgb(4, 4, 43);
+    justify-content: space-between;
+}
+.resume h4{
+    color: rgb(43, 189, 189);
+}
+.abt, .contact-info, .skills, .interest,
+.edu, .exp{
+    margin: 40px 0;
+}
+.resume .first_row{
+    width: 40%;
+}
+.resume .second_row{
+    width: 55%;
+    border-left: 1px solid beige;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+@media (max-width: 800px) {
+    .resume-wrapper{
+        width: 95%;
+        padding: 20px;
+    }
+    .resume{
+        padding: 30px;
+        margin: 1rem;
+    }
+}
+@media (max-width:600px) {
+    .resume{
+        display: block;
+        padding: 20px;
+        margin: 0;
+    }
+
+
+    .stack{
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-right: 30px; */
+    }
+    .stack div{
+        margin: 0 10px;
+    }
+    
+   .resume .first_row{
+        width: 100%;
+    }
+    .resume .second_row{
+        width: 100%;
+        border-left: none;
+        padding: 0;
+    }
+
+}

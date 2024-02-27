@@ -131,7 +131,7 @@ const Project = () => {
 
                    
                 </div>
-                <a download href={resume}>Download My Resume <i className="icofont-external-link"></i></a>
+                <Link to='/resume'>Go To My Resume <i className="icofont-external-link"></i></Link>
             </div> 
 
         </main> 

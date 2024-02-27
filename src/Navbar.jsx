@@ -7,17 +7,29 @@ const Navbar = () => {
   return (
     <>
 
-<header className=''>
+<header class="top-nav">
+    <div className='logo'>
+      <Link style={{color:'#fff'}} to='/'>CanDid.</Link>
+    </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+    <ul class="menu">
+      <Link to='/'>Home</Link>
+      <Link to='/about'>About</Link>
+      <Link to='/project'>Project</Link>
+      <Link to='/contact'>Contact</Link>
+      {/* <Link>Five</Link> */}
+    </ul>
+  </header>
+
+{/* <header className=''>
 <nav class="navbar navbar-dark shadow px-5 py-3">
   <div class="container-fluid">
     
     <Link style={{fontWeight:'bold', fontSize:'25px'}} to='/' 
     class="navbar-brand" href="#">CanDid.</Link>
-    {/* <div>
-        <a href="">toyota</a>
-        <a href="">toyota</a>
-        <a href="">toyota</a>
-      </div> */}
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -49,7 +61,7 @@ const Navbar = () => {
     </div>
   </div>
 </nav>
-</header>
+</header> */}
 
     </>
   )

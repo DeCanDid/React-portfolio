@@ -1,5 +1,6 @@
 import './About.css';
 import AOS from 'aos';
+import { Link } from 'react-router-dom';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
@@ -16,7 +17,7 @@ const About = () => {
      <main>
         <section data-aos='fade-out' className='section2'>
           <div>
-            <h1>About Me.</h1>
+            <h2>About Me.</h2>
             <article data-aos='fade-in'>
               <h4>🛠️ Crafting Digital Experiences:</h4>
               <p>I fell in love with coding 2 years ago, and since then, 
@@ -59,7 +60,12 @@ const About = () => {
                 and I think it helps me to recover from stress and also
                  boost my thinking strength</p>
             </article>
+
           </div>
+          <div className='change' data-aos='fade-in'>
+              <p><Link to='/project'>Lets Go To Projects <i className="icofont-external-link">
+                </i></Link></p>
+            </div>
         </section>
      </main>
     </>

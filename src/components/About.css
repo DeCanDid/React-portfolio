@@ -18,20 +18,29 @@ main{
     margin: 80px auto 20px;
 
 }
+
 article p{
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 10px 0;
 }
 .section2 article{
     padding: 2%;
-    margin: 3%;
+    margin: 10% 0%;
     width: 90%;
     border-left: 1px solid lightgrey; 
     /* border-top: 1px solid lightgrey; */
 }
+.change a{
+    text-decoration: none;
+    color: #fff;
+
+}
 
 /* media Query */
-@media (max-width:560px) {
-    .section2, .socialss{
+@media (max-width:600px) {
+    .section2{
+        border: 1px solid beige;
         width: 100%;
     }
 }

@@ -8,6 +8,8 @@ import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 import Footer from './components/Footer';
 import Home from './components/Home';
+import { Navigate } from 'react-router-dom';
+import Resume from './components/Resume';
 
 const App = () =>{
   return(
@@ -16,8 +18,10 @@ const App = () =>{
     <Navbar />
     <Routes>
       <Route path='/' element={<Home/>} />
+      <Route path='/home' element={<Navigate to='/'/>} />
       <Route path='/about' element={<About /> }/>
       <Route path='/project' element={<Project /> }/>
+      <Route path='/resume' element={<Resume/>}/>
       <Route path='/contact' element={<Contact /> }/>
       <Route path='*' element={<NotFound/> }/> 
 
