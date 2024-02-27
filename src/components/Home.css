@@ -40,14 +40,12 @@
     }
     .short-intro{
         width: 100%;
-        /* padding:100px 20px; */
     }
 }
 
 @media (max-width: 620px) {
     .row1{
         width: 100%;
-        /* border: 1px solid beige; */
         padding: 10px;
     }
     .short-intro p{
@@ -56,7 +54,6 @@
     .short-intro{
         width: 95%;
         margin: auto;
-        /* border: 1px solid beige; */
     
     }
 }
@@ -64,6 +61,5 @@
 @media (max-width: 520px) {
     .row1{
         width: 100%;
-        /* border: 1px solid beige; */
     }
 }
