@@ -20,7 +20,8 @@ const Contact = () =>{
       backgroundColor:'rgb(10, 10, 80)',
       borderRadius: '5px',
       padding: '10px 15px',
-      fontSize: '18px'
+      fontSize: '18px',
+      textDecoration: 'none'
     },
     text:{
       textAlign: 'center', 
@@ -37,8 +38,8 @@ const Contact = () =>{
 
          <div data-aos='fade-out' className='response' style={myStyle.text}>
         <h3 style={{margin:'20px', color:'#fff'}}>Thanks for the message! <br />
-        I will get back to you shortly...</h3>;
-        <Link style={myStyle.color}>
+        I will get back to you shortly...</h3>
+        <Link to='/' style={myStyle.color}>
           Go Back To The Homepage <i className="icofont-external-link"></i></Link>
 
       </div>
@@ -112,14 +113,15 @@ const Contact = () =>{
     </div>
 
     <div class="col-12 btn">
-        <button type="submit" class="btn btn-primary w-50"
+        <button type="submit" class="btn border color-secondary w-50"
         disabled={state.submitting}>Shoot</button>
     </div>
 
 </form>
 
     <div className='back-home'>
-    <Link  style={myStyle.color} to='/'>Go Back Home <i className="icofont-long-arrow-right">
+    <Link  style={myStyle.color} to='/'>
+      Go Back Home <i className="icofont-external-link">
       </i></Link>
     </div>
 

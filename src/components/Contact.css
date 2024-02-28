@@ -1,8 +1,6 @@
 
 .col-section{
     width: 40%;
-    /* padding: 50px; */
-    /* border: 1px solid beige; */
     margin: 50px auto;
 }
 
@@ -13,12 +11,17 @@
     background-color: transparent;
     font-weight: bold;
     border-radius: 0;
+    border-color: 1px solid lightgrey;
  
 }
 .form input:focus
  {
-    color: 8px solid lightgrey;
-    color: transparent;
+    color: rgb(187, 180, 180);
+    background-color: transparent;
+ }
+ .form textarea:focus{
+    color: rgb(187, 180, 180);
+    background-color: transparent;
  }
 
  .back-home {
