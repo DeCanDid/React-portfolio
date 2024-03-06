@@ -75,30 +75,31 @@ const Resume = () => {
                         </div>
 
                         <div className="edu">
-                        <h4>SQI College of ICT, Dugbe Campus Ibadan</h4>
+                        <h5>SQI College of ICT, Dugbe Campus Ibadan</h5>
                         <p>Software Engineer (Frontend Development)</p>
                         </div>
 
                         <div className="edu">
-                        <h4>National Open University of Nigeria</h4>
+                        <h5>National Open University of Nigeria</h5>
                         <p>Computer Science</p>
                         <p>Undergraduate</p>
                         </div>
 
                         <div className="exp">
-                        <h4>Selina Venture Ltd</h4>
+                        <h4>Experience</h4>
+                        <h5>Selina Venture Ltd</h5>
                         <p>Computer Operator</p>
                         <p>2019 - 2022</p>
                         </div>
 
                         <div className="exp">
-                        <h4>RamBoufe Restaurant</h4>
+                        <h5>RamBoufe Restaurant</h5>
                         <p>Frontend Engineer & Inventory Officer</p>
                         <p>2023</p>
                         </div>
 
                         <div className="exp">
-                        <h4>Creative Digita Technologies</h4>
+                        <h5>Creative Digita Technologies</h5>
                         <p>Coding Instructor</p>
                         <p>2023 till date</p>
                         </div>
