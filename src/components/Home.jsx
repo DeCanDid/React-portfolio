@@ -16,7 +16,7 @@ const Home = () => {
        }, [])
   return (
     <>
-        <main>
+        <main contextMenu='false'>
             <section data-aos='fade-out' className='sec1'>
                 <div className="row1">
 

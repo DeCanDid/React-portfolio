@@ -25,11 +25,6 @@ const App = () =>{
       <Route path='/contact' element={<Contact /> }/>
       <Route path='/*' element={<NotFound />}/>
       {/* <Route path='*' element={<NotFound/> }/>  */}
-
-
-
-
-
        {/* <Route path='/' element={<Landing /> }/> */}
       
     </Routes>

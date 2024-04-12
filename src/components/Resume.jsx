@@ -104,6 +104,22 @@ const Resume = () => {
                         <p>2023 till date</p>
                         </div>
 
+                        <div className="exp">
+                        <h4>Social Links</h4>
+
+                        <p>LinkedIn: &nbsp; <a style={{color:'#fff'}} href="https://www.linkedin.com/in/ola-candid-509465253/">
+                        https://www.linkedin.com/in/ola-candid-509465253/</a></p>
+                        
+                        <p>Portfolio: &nbsp; <a style={{color:'#fff'}} href="https://react-portfolio-3gw6.onrender.com">
+                            https://react-portfolio-3gw6.onrender.com</a></p>
+
+                        <p>GitHub: &nbsp; <a style={{color:'#fff'}} href="https://github.com/DeCanDid">
+                        https://github.com/DeCanDid</a></p>
+
+                        <p>Twitter: &nbsp; <a style={{color:'#fff'}} href="https://twitter.com/OlaCandid">
+                        https://twitter.com/OlaCandid</a></p>
+                        </div>
+
             
                     </div>
                 </div>
