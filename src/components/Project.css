@@ -8,17 +8,15 @@
     justify-content: center;
 
 }
+
+.pro_1{
+    background-image: url(../Images/horizon.PNG);
+    background-size: cover;
+    /* background-position:center; */
+}
+
 .pro{
     background-image: url(../Images/ankara.PNG);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.pro:hover .transparent, .pro2:hover .transparent,
-.pro3:hover .transparent, .pro4:hover .transparent,
-.pro5:hover .transparent, .pro6:hover .transparent,
-.pro7:hover .transparent, .pro8:hover .transparent,
-.pro9:hover .transparent{
-    display: block;
 }
 
 .pro2{
@@ -59,9 +57,17 @@
     background-position: center;
     background-size: cover;
 }
+
+.pro:hover .transparent, .pro2:hover .transparent,
+.pro3:hover .transparent, .pro4:hover .transparent,
+.pro5:hover .transparent, .pro6:hover .transparent,
+.pro7:hover .transparent, .pro8:hover .transparent,
+.pro9:hover .transparent, .pro_1:hover .transparent{
+    display: block;
+}
+
 .pro, .pro2, .pro3, .pro4,.pro5,
-.pro6, .pro7, .pro8, .pro9{
-    /* border: 1px solid beige; */
+.pro6, .pro7, .pro8, .pro9, .pro_1{
     width: 30%;
     height: 300px;
     border-radius: 5px;
@@ -182,14 +188,14 @@ main a{
 @media (max-width:1100px) {
 
     .pro, .pro2, .pro3, .pro4, .pro5,
-    .pro6, .pro7, .pro8, .pro9{
+    .pro6, .pro7, .pro8, .pro9, .pro_1{
         width: 45%;
     }
 }
 
 @media (max-width:820px) {
     .pro, .pro2, .pro3, .pro4, .pro5,
-    .pro6, .pro7, .pro8, .pro9{
+    .pro6, .pro7, .pro8, .pro9, .pro_1{
         width: 70%;
     }
   
@@ -201,7 +207,7 @@ main a{
     }
 
     .pro, .pro2, .pro3, .pro4, .pro5,
-    .pro6, .pro7, .pro8, .pro9{
+    .pro6, .pro7, .pro8, .pro9, .pro_1{
         width: 100%;
         margin: 30px 0;
     }

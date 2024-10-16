@@ -17,8 +17,34 @@ const Project = () => {
     <>
          <main>
             <div data-aos='fade-out' className="section3">
-                <h1>Projects.</h1>
+                <h1>Projects.....</h1>
                 <div className="myprojects">
+
+                <div data-aos='fade-in' className="pro_1 border">
+                    <div className="transparent">
+                        <div className="project-resource">
+                            <h3>Horizon High School</h3>
+                            <p>Horizon English Grammar High School
+                            </p>
+                            <small>HTML</small><small>CSS</small><small>JavaScript</small>
+                            <center><Link to='https://horizon-school-website.onrender.com'><i class="icofont-external-link"></i></Link></center>
+                        </div>
+                    </div>
+                    </div>
+
+
+                    <div data-aos='fade-in' className="pro4">
+                    <div className="transparent">
+                        <div className="project-resource">
+                            <h3>E-commerce website</h3>
+                            <p>A blended design of an e-commerce website for shopping 
+                                varieties of products
+                            </p>
+                            <small>HTML</small><small>CSS</small><small>JavaScript</small>
+                            <center><Link to='https://clothing-ecomms.netlify.app'><i class="icofont-external-link"></i></Link></center>
+                        </div>
+                    </div>
+                    </div>
 
                     <div data-aos='fade-in' className="pro">
                     <div className="transparent">
@@ -59,18 +85,7 @@ const Project = () => {
                     </div>
                     </div>
 
-                    <div data-aos='fade-in' className="pro4">
-                    <div className="transparent">
-                        <div className="project-resource">
-                            <h3>E-commerce website</h3>
-                            <p>A blended design of an e-commerce website for shopping 
-                                varieties of products
-                            </p>
-                            <small>HTML</small><small>CSS</small><small>JavaScript</small>
-                            <center><Link to='https://clothing-ecomms.netlify.app'><i class="icofont-external-link"></i></Link></center>
-                        </div>
-                    </div>
-                    </div>
+                    
 
                     <div data-aos='fade-in' className="pro5">
                     <div className="transparent">
