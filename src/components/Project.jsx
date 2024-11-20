@@ -139,7 +139,7 @@ const Project = () => {
                             <h3>Horizon Real Estate</h3>
                             <p>A real estate website</p>
                             <small>React</small><small>CSS</small><small>JavaScript</small>
-                            <center><Link to='https://react-portfolio-3gw6.onrender.com/project'><i class="icofont-external-link"></i></Link></center>
+                            <center><Link to='https://horizon-real-estate.onrender.com/'><i class="icofont-external-link"></i></Link></center>
                         </div>
                     </div>
                     </div>
