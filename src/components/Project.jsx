@@ -27,7 +27,7 @@ const Project = () => {
                             <p>Horizon English Grammar High School
                             </p>
                             <small>HTML</small><small>CSS</small><small>JavaScript</small>
-                            <center><Link to='https://horizon-school-website.onrender.com'><i class="icofont-external-link"></i></Link></center>
+                            <center><Link to='https://horizschool-website.onrender.comon-'><i class="icofont-external-link"></i></Link></center>
                         </div>
                     </div>
                     </div>
@@ -136,10 +136,10 @@ const Project = () => {
                     <div data-aos='fade-in' className="pro9">
                     <div className="transparent">
                         <div className="project-resource">
-                            <h3>A Simple To-do App</h3>
-                            <p>A Todo App</p>
-                            <small>HTML</small><small>CSS</small><small>JavaScript</small>
-                            <center><Link to='https://todolist-1n2z.onrender.com'><i class="icofont-external-link"></i></Link></center>
+                            <h3>Horizon Real Estate</h3>
+                            <p>A real estate website</p>
+                            <small>React</small><small>CSS</small><small>JavaScript</small>
+                            <center><Link to='https://react-portfolio-3gw6.onrender.com/project'><i class="icofont-external-link"></i></Link></center>
                         </div>
                     </div>
                     </div>
