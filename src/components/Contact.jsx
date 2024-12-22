@@ -77,7 +77,7 @@ const Contact = () =>{
                 <h1>Contact Me</h1>
                 <p>Send me an email...</p>
                 
-  <form method='POST' class="row g-3 form" onSubmit={handleSubmit}>
+          <form method='POST' class="row g-3 form" onSubmit={handleSubmit}>
 
         <div class="col-md-6">
           <label for="inputEmail4" class="form-label">Name</label>

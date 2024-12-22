@@ -27,7 +27,7 @@ const Project = () => {
                             <p>Horizon English Grammar High School
                             </p>
                             <small>HTML</small><small>CSS</small><small>JavaScript</small>
-                            <center><Link to='https://horizschool-website.onrender.comon-'><i class="icofont-external-link"></i></Link></center>
+                            <center><Link to='https://horizon-school-website.onrender.com'><i class="icofont-external-link"></i></Link></center>
                         </div>
                     </div>
                     </div>
@@ -120,7 +120,7 @@ const Project = () => {
                     </div>
                     </div>
 
-                    <div data-aos='fade-in' className="pro8">
+                    {/* <div data-aos='fade-in' className="pro8">
                     <div className="transparent">
                         <div className="project-resource">
                             <h3>Rocket Fx</h3>
@@ -131,7 +131,7 @@ const Project = () => {
                             <center><Link to='htpps://rocketgainfxcare-s56r.onrender.com'><i class="icofont-external-link"></i></Link></center>
                         </div>
                     </div>
-                    </div>
+                    </div> */}
 
                     <div data-aos='fade-in' className="pro9">
                     <div className="transparent">
