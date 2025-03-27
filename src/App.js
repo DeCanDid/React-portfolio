@@ -14,9 +14,10 @@ import Resume from "./components/Resume";
 const App = () => {
   return (
     <>
-      <div className="color">
-        <Navbar />
-        <Router>
+      <Router>
+        <div className="color">
+          <Navbar />
+
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Navigate to="/" />} />
@@ -28,9 +29,9 @@ const App = () => {
             {/* <Route path='*' element={<NotFound/> }/>  */}
             {/* <Route path='/' element={<Landing /> }/> */}
           </Routes>
-        </Router>
-        <Footer />
-      </div>
+          <Footer />
+        </div>
+      </Router>
     </>
   );
 };
