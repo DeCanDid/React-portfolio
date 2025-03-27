@@ -14,7 +14,7 @@ import Resume from "./components/Resume";
 const App = () => {
   return (
     <>
-      <Router>
+      {/* <Router> */}
         <div className="color">
           <Navbar />
 
@@ -31,7 +31,7 @@ const App = () => {
           </Routes>
           <Footer />
         </div>
-      </Router>
+      {/* </Router> */}
     </>
   );
 };

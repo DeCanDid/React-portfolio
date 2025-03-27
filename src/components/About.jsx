@@ -20,7 +20,7 @@ const About = () => {
             <h2>About Me.</h2>
             <article data-aos='fade-in'>
               <h4>🛠️ Crafting Digital Experiences:</h4>
-              <p>I fell in love with coding 2 years ago, and since then, 
+              <p>I fell in love with coding in 2022, and since then, 
                 I've been on a mission to make the digital world a more 
                 inviting place. My focus is on turning ideas into visually 
                 appealing and functional websites.</p>

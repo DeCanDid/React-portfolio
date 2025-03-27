@@ -16,7 +16,7 @@ const Footer = () => {
 
           <div>
             <hr />
-          <small>© 2024 CanDid</small>
+          <small>© 2025 CanDid</small>
           </div>
         </footer>
     </>
