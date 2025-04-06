@@ -30,7 +30,7 @@ const Project = () => {
                   <small>CSS</small>
                   <small>HTML</small>
                   <center>
-                    <Link to="https://candid-tech.netlify.app">
+                    <Link to="https://candid-tech.netlify.app" target="_blank">
                       <i class="icofont-external-link"></i>
                     </Link>
                   </center>
@@ -48,7 +48,7 @@ const Project = () => {
                   <small>CSS</small>
                   <small>JavaScript</small>
                   <center>
-                    <Link to="https://horizon-school-website.onrender.com">
+                    <Link to="https://horizon-school-website.onrender.com" target="_blank">
                       <i class="icofont-external-link"></i>
                     </Link>
                   </center>
@@ -66,7 +66,7 @@ const Project = () => {
                   <small>Tailwind</small>
                   <small>JavaScript</small>
                   <center>
-                    <Link to="https://rentoutweb.netlify.app">
+                    <Link to="https://rentoutweb.netlify.app" target="_blank">
                       <i class="icofont-external-link"></i>
                     </Link>
                   </center>
@@ -87,7 +87,7 @@ const Project = () => {
                   <small>CSS</small>
                   <small>JavaScript</small>
                   <center>
-                    <Link to="https://clothing-ecomms.netlify.app">
+                    <Link to="https://clothing-ecomms.netlify.app" target="_blank">
                       <i class="icofont-external-link"></i>
                     </Link>
                   </center>
@@ -108,7 +108,7 @@ const Project = () => {
                   <small>CSS</small>
                   <small>JavaScript</small>
                   <center>
-                    <Link to="https://ankara-fiesta.onrender.com">
+                    <Link to="https://ankara-fiesta.onrender.com" target="_blank">
                       <i class="icofont-external-link"></i>
                     </Link>
                   </center>
@@ -128,7 +128,7 @@ const Project = () => {
                   <small>CSS</small>
                   <small>JavaScript</small>
                   <center>
-                    <Link to="https://ajikeacademy.com">
+                    <Link to="https://ajikeacademy.com" target="_blank">
                       <i class="icofont-external-link"></i>
                     </Link>
                   </center>
@@ -149,7 +149,7 @@ const Project = () => {
                   <small>CSS</small>
                   <small>HTML</small>
                   <center>
-                    <Link to="https://dinnerinternationals.onrender.com">
+                    <Link to="https://dinnerinternationals.onrender.com" target="_blank">
                       <i class="icofont-external-link"></i>
                     </Link>
                   </center>
@@ -168,7 +168,7 @@ const Project = () => {
                   <small>JavaScript</small>
                   <small>Firebase</small>
                   <center>
-                    <Link to="https://grant-website.onrender.com">
+                    <Link to="https://grant-website.onrender.com" target="_blank">
                       <i class="icofont-external-link"></i>
                     </Link>
                   </center>
@@ -199,7 +199,7 @@ const Project = () => {
                   <small>CSS</small>
                   <small>JavaScript</small>
                   <center>
-                    <Link to="https://horizon-real-estate.onrender.com/">
+                    <Link to="https://horizon-real-estate.onrender.com/" target="_blank">
                       <i class="icofont-external-link"></i>
                     </Link>
                   </center>
