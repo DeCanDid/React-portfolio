@@ -40,10 +40,13 @@
 }
 
 .pro6{
-    background-image: url(../Images/real-estate.PNG);
+    background-image: url(../Images/lwc.PNG);
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    background-size: cover;
 }
 .pro7{
-    background-image: url(../Images/musicApp.PNG);
+    background-image: url(../Images/rentout.PNG);
     background-size: cover;
 }
 
