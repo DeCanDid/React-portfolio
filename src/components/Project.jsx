@@ -60,7 +60,7 @@ const Project = () => {
               <div className="transparent">
                 <div className="project-resource">
                   <h3>RentOut Website</h3>
-                  <p>A relaible website that gives user the opportunity to lease out their gadget for cash.</p>
+                  <p>A reliable website that gives user the opportunity to lease out their gadget for cash.</p>
                   <br />
                   <small>React</small>
                   <small>Tailwind</small>
@@ -88,6 +88,23 @@ const Project = () => {
                   <small>JavaScript</small>
                   <center>
                     <Link to="https://clothing-ecomms.netlify.app" target="_blank">
+                      <i class="icofont-external-link"></i>
+                    </Link>
+                  </center>
+                </div>
+              </div>
+            </div>
+
+            <div data-aos="fade-in" className="pro9">
+              <div className="transparent">
+                <div className="project-resource">
+                  <h3>Horizon Real Estate</h3>
+                  <p>A real estate website</p>
+                  <small>React</small>
+                  <small>CSS</small>
+                  <small>JavaScript</small>
+                  <center>
+                    <Link to="https://horizon-real-estate.onrender.com/" target="_blank">
                       <i class="icofont-external-link"></i>
                     </Link>
                   </center>
@@ -189,23 +206,6 @@ const Project = () => {
                         </div>
                     </div>
                     </div> */}
-
-            <div data-aos="fade-in" className="pro9">
-              <div className="transparent">
-                <div className="project-resource">
-                  <h3>Horizon Real Estate</h3>
-                  <p>A real estate website</p>
-                  <small>React</small>
-                  <small>CSS</small>
-                  <small>JavaScript</small>
-                  <center>
-                    <Link to="https://horizon-real-estate.onrender.com/" target="_blank">
-                      <i class="icofont-external-link"></i>
-                    </Link>
-                  </center>
-                </div>
-              </div>
-            </div>
           </div>
           <br />
           <Link to="/resume">

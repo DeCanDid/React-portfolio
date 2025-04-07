@@ -31,7 +31,7 @@ const About = () => {
               <h4>🖥️ Tools of Innovation</h4>
               <p>In my toolkit, you'll find a proficiency in HTML5, CSS3, 
                 and JavaScript, along with a mastery of frameworks like 
-                React, Bootsrap, Tailwind and some other CSS libraries. I love tackling challenges, 
+                React, Next.js, Bootsrap, Tailwind and some other CSS libraries. I love tackling challenges, 
                 be it optimizing for performance, ensuring seamless 
                 responsiveness, or architecting elegant solutions to 
                 complex problems.</p>

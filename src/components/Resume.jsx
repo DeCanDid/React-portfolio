@@ -22,30 +22,28 @@ const Resume = () => {
                     
                     <div className="abt">
                     <h2>Ismail Abdulbaseet O.</h2><br />
-                    <h4>Frontend Developer</h4>
-                    <p>A passionate and experience Frontend Developer
-                    with a love for crafting pixel-perfect, user-friendly 
-                    experiences on the web
+                    <h4>Full-Stack Developer</h4>
+                    <p>Passionate Full-stack Developer specializing in React, Next.js, Node.js, and JavaScript. Expert in building responsive interfaces and robust backend systems. Proven record of delivering high-impact web solutions that enhance user experience and drive business success.
                     </p>
                     </div>
 
                     <div className="contact-info">
                         <h4>Contact Info</h4>
-                        <p><i className="icofont-phone"></i>&nbsp; +2349019134950</p>
                         <p><i className="icofont-phone"></i>&nbsp; +2349033179950</p>
+                        {/* <p><i className="icofont-phone"></i>&nbsp; +2349033179950</p> */}
                         <p><i className="icofont-email"></i>&nbsp;&nbsp;<a href='mailto:olacandid@gmail.com'>olacandid@gmail.com</a></p>
                     </div>
 
                     <div className="skills">
                         <h4>Skills</h4>
-                        <h5>Frontend Development</h5>
+                        <h5>Full Stack Development</h5>
                         <div className="stack">
-                        <div><p>HTML</p></div>
-                        <div><p>CSS</p></div>
-                        <div><p>BootStrap</p></div>
-                        <div><p>SASS</p></div>
                         <div><p>JavaScript</p></div>
                         <div><p>React.js</p></div>
+                        <div><p>Next.js</p></div>
+                        <div><p>Node.js</p></div>
+                        <div><p>BootStrap</p></div>
+                        <div><p>SASS</p></div>
                         <div><p>Firebase</p></div>
                         <div><p>Canva</p></div>
                         </div>
@@ -87,9 +85,10 @@ const Resume = () => {
 
                         <div className="exp">
                         <h4>Experience</h4>
-                        <h5>Selina Venture Ltd</h5>
-                        <p>Computer Operator</p>
-                        <p>2019 - 2022</p>
+                        <h5>Creative Digita Technologies</h5>
+                        <p>Coding Instructor</p>
+                        <p>2023 till date</p>
+                        
                         </div>
 
                         <div className="exp">
@@ -99,9 +98,9 @@ const Resume = () => {
                         </div>
 
                         <div className="exp">
-                        <h5>Creative Digita Technologies</h5>
-                        <p>Coding Instructor</p>
-                        <p>2023 till date</p>
+                        <h5>Selina Venture Ltd</h5>
+                        <p>Computer Operator</p>
+                        <p>2019 - 2022</p>
                         </div>
 
                         <div className="exp">
