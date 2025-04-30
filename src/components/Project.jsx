@@ -4,7 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import resume from "../Resume/Resume.pdf";
+// import resume from "../Resume/Resume.pdf";
 
 const Project = () => {
   useEffect(() => {
@@ -19,13 +19,33 @@ const Project = () => {
         <div data-aos="fade-out" className="section3">
           <h1>Projects.....</h1>
           <div className="myprojects">
+            <div data-aos="fade-in" className="proCreative">
+              <div className="transparent">
+                <div className="project-resource">
+                  <h3>Creative Digita</h3>
+                  <p>Creative Digita Technologies Web Page</p>
+                  <small>React</small>
+                  <small>Bootstrap</small>
+                  <center>
+                    <Link
+                      to="https://creative-digita-technologies.netlify.app"
+                      target="_blank"
+                    >
+                      <i class="icofont-external-link"></i>
+                    </Link>
+                  </center>
+                </div>
+              </div>
+            </div>
 
-          <div data-aos="fade-in" className="pro6">
+            <div data-aos="fade-in" className="pro6">
               <div className="transparent">
                 <div className="project-resource">
                   <h3>CanDid-Tech Academy</h3>
-                  <p>The CanDid Tech Academy is a platform that offer tech course
-                  both online and offline</p>
+                  <p>
+                    The CanDid Tech Academy is a platform that offer tech course
+                    both online and offline
+                  </p>
                   <small>JavaScript</small>
                   <small>CSS</small>
                   <small>HTML</small>
@@ -48,7 +68,10 @@ const Project = () => {
                   <small>CSS</small>
                   <small>JavaScript</small>
                   <center>
-                    <Link to="https://horizon-school-website.onrender.com" target="_blank">
+                    <Link
+                      to="https://horizon-school-website.onrender.com"
+                      target="_blank"
+                    >
                       <i class="icofont-external-link"></i>
                     </Link>
                   </center>
@@ -60,7 +83,10 @@ const Project = () => {
               <div className="transparent">
                 <div className="project-resource">
                   <h3>RentOut Website</h3>
-                  <p>A reliable website that gives user the opportunity to lease out their gadget for cash.</p>
+                  <p>
+                    A reliable website that gives user the opportunity to lease
+                    out their gadget for cash.
+                  </p>
                   <br />
                   <small>React</small>
                   <small>Tailwind</small>
@@ -87,7 +113,10 @@ const Project = () => {
                   <small>CSS</small>
                   <small>JavaScript</small>
                   <center>
-                    <Link to="https://clothing-ecomms.netlify.app" target="_blank">
+                    <Link
+                      to="https://clothing-ecomms.netlify.app"
+                      target="_blank"
+                    >
                       <i class="icofont-external-link"></i>
                     </Link>
                   </center>
@@ -104,7 +133,10 @@ const Project = () => {
                   <small>CSS</small>
                   <small>JavaScript</small>
                   <center>
-                    <Link to="https://horizon-real-estate.onrender.com/" target="_blank">
+                    <Link
+                      to="https://horizon-real-estate.onrender.com/"
+                      target="_blank"
+                    >
                       <i class="icofont-external-link"></i>
                     </Link>
                   </center>
@@ -120,12 +152,15 @@ const Project = () => {
                     Ankara Fiesta is a professonal business website built to
                     showcase African fashion style
                   </p>
-                   <br />
+                  <br />
                   <small>HTML</small>
                   <small>CSS</small>
                   <small>JavaScript</small>
                   <center>
-                    <Link to="https://ankara-fiesta.onrender.com" target="_blank">
+                    <Link
+                      to="https://ankara-fiesta.onrender.com"
+                      target="_blank"
+                    >
                       <i class="icofont-external-link"></i>
                     </Link>
                   </center>
@@ -161,12 +196,15 @@ const Project = () => {
                     The website is all about booking event programs, dinners and
                     dates and meet new peple
                   </p>
-                   <br />
+                  <br />
                   <small>React</small>
                   <small>CSS</small>
                   <small>HTML</small>
                   <center>
-                    <Link to="https://dinnerinternationals.onrender.com" target="_blank">
+                    <Link
+                      to="https://dinnerinternationals.onrender.com"
+                      target="_blank"
+                    >
                       <i class="icofont-external-link"></i>
                     </Link>
                   </center>
@@ -185,27 +223,16 @@ const Project = () => {
                   <small>JavaScript</small>
                   <small>Firebase</small>
                   <center>
-                    <Link to="https://grant-website.onrender.com" target="_blank">
+                    <Link
+                      to="https://grant-website.onrender.com"
+                      target="_blank"
+                    >
                       <i class="icofont-external-link"></i>
                     </Link>
                   </center>
                 </div>
               </div>
             </div>
-
-
-            {/* <div data-aos='fade-in' className="pro8">
-                    <div className="transparent">
-                        <div className="project-resource">
-                            <h3>Rocket Fx</h3>
-                            <p>A crypto investment platform that allows people to 
-                                invest with crypto with percentage interest
-                            </p>
-                            <small>React</small><small>CSS</small><small>HTML</small>
-                            <center><Link to='htpps://rocketgainfxcare-s56r.onrender.com'><i class="icofont-external-link"></i></Link></center>
-                        </div>
-                    </div>
-                    </div> */}
           </div>
           <br />
           <Link to="/resume">
